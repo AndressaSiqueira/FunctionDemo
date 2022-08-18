@@ -1,0 +1,13 @@
+{
+	"name": "Primeirafn",
+	"version": "1.0.0",
+	"description": "function que inicia o fluxo e entrega msg na fila",
+	"main": "func.js",
+	"author": "",
+	"license": "Apache-2.0",
+	"dependencies": {
+		"@fnproject/fdk": ">=0.0.24",
+		"crypto": "^1.0.1",
+		"oci-sdk": "^1.22.1"
+	}
+}
