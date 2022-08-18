@@ -1,10 +1,9 @@
 const common = require("oci-common");
 const st = require("oci-streaming"); // OCI SDK package for OSS
 
-const ociConfigFile = "<config_file_path>";
-const ociProfileName = "<config_file_profile_name>";
-const ociMessageEndpointForStream = "<stream_message_endpoint>";
-const ociStreamOcid = "<stream_OCID>";
+const ociConfigFile = "/home/ANDRESSA_D/.oci/";
+const ociMessageEndpointForStream = "https://cell-1.streaming.sa-saopaulo-1.oci.oraclecloud.com";
+const ociStreamOcid = "ocid1.stream.oc1.sa-saopaulo-1.amaaaaaatsbrckqabmvpnvoa2nhp664uyojoq4j75npbh3aato5rajd5epaq";
 
 // provide authentication for OCI and OSS
 const provider = new common.ConfigFileAuthenticationDetailsProvider(ociConfigFile, ociProfileName);
